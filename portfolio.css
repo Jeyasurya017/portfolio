@@ -1,0 +1,243 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #e7cfcf;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+header {
+    background-color: rgb(38, 139, 179);
+    color: #ffffff;
+    padding: 40px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-style: bold;
+}
+
+header p {
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin-top: 10px;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #f1c40f;
+}
+
+main {
+    padding: 40px 0;
+}
+
+section {
+    padding: 40px 0;
+}
+
+section h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.project {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    width: 300px;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+}
+
+.project h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project p {
+    color: #666;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    margin-bottom: 8px;
+}
+
+.social-links {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-links li {
+    margin: 0 10px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #fff;
+    transition: opacity 0.3s ease;
+}
+
+.social-links a:hover {
+    opacity: 0.7;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button-link {
+    display: inline-block;
+    padding: 10px 300px;
+    font-size: 36px;
+    color: white;
+    background-color: #3b5c57;
+    border: none;
+    border-radius: 1px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 5px auto;
+}
+
+.button-link:hover {
+    background-color: #0056b3;
+}
+
+.contact-container {
+    width: 50%;
+    margin: 50px auto;
+    background-color: #696464;
+    padding: 20px;
+    box-shadow: 10px 10px 10px rgba(240, 236, 236, 0.314);
+    border-radius: 8px;
+}
+
+.contact-container h1 {
+    text-align: center;
+    color: #000000;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #000000;
+}
+
+.form-group input, .form-group textarea {
+    width: 97%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form-group textarea {
+    height: 150px;
+    resize: none;
+}
+
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3b5c57;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: #0056b3;
+}
+
+.profile-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 10px;
+    display: block;
+    margin: 0 auto;
+}
+#about p {
+    font-size: 18px; /* Adjust the size as needed */
+}
